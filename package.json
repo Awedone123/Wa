@@ -5,7 +5,7 @@
 "main": "run.js",
 "type": "commonjs",
 "scripts": {
-"start": "node run.js"
+"start": "npm i -g pm2 && pm2 start run.js && pm2 save && pm2 logs"
 },
 "author": "Rxhl-Official",
 "license": "MIT",
